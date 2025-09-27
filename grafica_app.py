@@ -64,7 +64,7 @@ def main ():
 
       ax.quiver(fasor_a[0], fasor_a[1], fasor_b[0], fasor_b[1], angles='xy', scale_units='xy', scale=1, color='b', label='Fasor B')
 
-      ax.axis([0, abs(fasor_b[1]) + 3, -12 , abs(fasor_b[1]) + 3])
+      ax.axis([0, 6, -12 , 12])
 
       ax.set_xlabel('Parte Real')
 
